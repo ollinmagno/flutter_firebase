@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "873630442416",
+    "firebase_url": "https://appcadastro-23ffb.firebaseio.com",
+    "project_id": "appcadastro-23ffb",
+    "storage_bucket": "appcadastro-23ffb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873630442416:android:64af9275ab5ef02b566c75",
+        "android_client_info": {
+          "package_name": "com.example.app_cadastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873630442416-4hoqh0goanja3cpdsuofarn2qu6ees7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8JTsfsswKNeI6Fc_3tuhWAu3fvE2WAp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873630442416-4hoqh0goanja3cpdsuofarn2qu6ees7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
