@@ -1,3 +1,4 @@
+import 'package:app_cadastro/view/tela_exibir_usuarios.dart';
 import 'package:flutter/material.dart';
 
 class TelaCadastro extends StatefulWidget {
@@ -80,31 +81,31 @@ class _TelaCadastroState extends State<TelaCadastro> {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Drawer Header'),
+              child: Text('Lista'),
               decoration: BoxDecoration(
                 color: Colors.amber,
               ),
             ),
-            ListTile(
-              title: Text('Perfil'),
-              onTap: () {
-                // Update the state of the app.
-                // ...
-              },
+            RaisedButton(
+              child: Text('Exibir usuários'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TelaExibirUsuarios()),
+                );
+              }
             ),
-            ListTile(
-              title: Text('Usuários'),
-              onTap: () {
-                // Update the state of the app.
-                // ...
-              },
+            RaisedButton(
+              child: Text('Perfil'),
+              onPressed: () {
+                
+              }
             ),
-            ListTile(
-              title: Text('Sair'),
-              onTap: () {
-                // Update the state of the app.
-                // ...
-              },
+            RaisedButton(
+              child: Text('Sair'),
+              onPressed: () {
+                
+              }
             ),
           ],
         ),
